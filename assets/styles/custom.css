@@ -1,0 +1,30 @@
+/* assets/styles/custom.css */
+
+.tile {
+    border: 1px solid #e0e0e0;
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+    transition: transform 0.2s, box-shadow 0.2s;
+    background-color: #f9f9f9;
+    position: relative; /* For potential overlays */
+}
+.tile:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 20px rgba(0,0,0,0.2);
+}
+.tile img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+.tile h3 {
+    margin-top: 10px;
+}
+.tile a {
+    text-decoration: none;
+    color: #333;
+}
+.tile a:hover {
+    color: #007BFF;
+}
